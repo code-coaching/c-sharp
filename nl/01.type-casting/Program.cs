@@ -8,7 +8,7 @@ int eenInt = 5;
 long longGroterDanInt = eenInt; // geen probleem
 
 /*
-long eenLong = 5;
+long eenLong = 5L;
 int intKleinerDanLong = eenLong; // foutmelding - een long past niet in een int
 */
 
@@ -27,7 +27,7 @@ float floatKleinerDanDouble = eenDouble; // foutmelding - een double past niet i
 * kan expliciet worden gecast worden.
 */
 
-long eenLong = 5;
+long eenLong = 5L;
 int intKleinerDanLong = (int)eenLong; // Dit is een expliciete type cast van long naar int
 
 double eenDouble = 5.0;

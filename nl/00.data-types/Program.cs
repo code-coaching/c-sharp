@@ -7,7 +7,7 @@ int eenInt = 69;
 int kleinstMogelijkeInt = int.MinValue; // -2147483648
 int grootstMogelijkeInt = int.MaxValue; // 2147483647
 
-long someLong = 3141592653; // Groter dan int.MaxValue, past wel in long
+long someLong = 3141592653L; // Groter dan int.MaxValue, past wel in long, merk op de L achter de waarde
 long kleinstMogelijkeLong = long.MinValue; // -9223372036854775808
 long grootstMogelijkeLong = long.MaxValue; // 9223372036854775807
 
