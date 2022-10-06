@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Wat is je naam?");
+﻿using System;
+
+Console.WriteLine("Wat is je naam?");
 string nameInput = Console.ReadLine();
 
 Console.WriteLine("Wat is je leeftijd?");

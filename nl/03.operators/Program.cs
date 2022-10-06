@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Eerste getal?");
+﻿using System;
+
+Console.WriteLine("Eerste getal?");
 int firstNumber = int.Parse(Console.ReadLine() ?? string.Empty); // Indien ReadLine null is, wordt er een lege string gebruikt
 
 Console.WriteLine("Tweede getal?");
